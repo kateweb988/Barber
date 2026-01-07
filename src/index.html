@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>КЭП</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="index.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul class="nav__list">
+							<li>
+								<a href="#ser" class="go_to">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="#info" class="go_to">
+									Философия
+								</a>
+							</li>
+							<li>
+								<a href="#photo" class="go_to">
+									Фотогалерея
+								</a>
+							</li>
+							<li>
+								<a href="#team" class="go_to">
+									Команда
+								</a>
+							</li>
+							<li>
+								<a href="#prog" class="go_to">
+									Лояльность
+								</a>
+							</li>
+							<li>
+								<a href="#faq" class="go_to">
+									Вопросы
+								</a>
+							</li>
+							<li>
+								<a href="#contacts" class="go_to">
+									Контакты
+								</a>
+							</li>
+						</ul>
+						<div class="menu-btn"></div>
+					</div>
+					<div class="menu">
+						<div class="menu__wrap">
+							<p class="menu__title">
+								МЕНЮ
+							</p>
+							<ul class="menu__list">
+								<li>
+									<a href="#ser" class="go_to">
+										Услуги
+									</a>
+								</li>
+								<li>
+									<a href="#info" class="go_to">
+										Философия
+									</a>
+								</li>
+								<li>
+									<a href="#photo" class="go_to">
+										Фотогалерея
+									</a>
+								</li>
+								<li>
+									<a href="#team" class="go_to">
+										Команда
+									</a>
+								</li>
+								<li>
+									<a href="#prog" class="go_to">
+										Лояльность
+									</a>
+								</li>
+								<li>
+									<a href="#faq" class="go_to">
+										Вопросы
+									</a>
+								</li>
+								<li>
+									<a href="#contacts" class="go_to">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="header__wrap">
+				<div class="container">
+					<div class="header__box">
+						<img src="img/main3.png" alt="" class="header__bg">
+						<div class="header__content">
+							<h1>
+								Добро <span class="b">пожаловать</span> <br> В барбершоп <span class="or">кэп</span>
+							</h1>
+							<p class="header__text">
+								Уважаем время, слышим с полуслова, держим верный <br> курс - в стиле, образе и внутреннем состоянии
+							</p>
+							<div class="header__info q">
+								<a href="#" class="header__btn btn js-popup-call">
+									Записаться онлайн
+								</a>
+								<p class="header__sale">
+									-20%
+								</p>
+								<p class="header__sub">
+									Скидка на первую <br> стрижку 
+								</p>
+							</div>
+						</div>
+						<div class="header__area">
+							<img src="img/main1.png" alt="" class="header__pic1">
+							<img src="img/main2.png" alt="" class="header__pic2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="info" id="info">
+			<div class="container">
+				<div class="info__wrap">
+					<img src="img/info.png" alt="" class="info__bg">
+					<div class="info__top q">
+						<p>
+							#<span>К</span>омпетентность
+						</p>
+						<p>
+							#<span>Э</span>мпатия
+						</p>
+						<p>
+							#<span>П</span>равдивость
+						</p>
+					</div>
+					<p class="info__text">
+						Каждое движение — выверено, каждый результат предсказуем. Мы не ищем оправданий, мы даём качество, которое можно почувствовать. Мы честны в словах, в цене, в результате. 
+						Не навязываем, не обещаем лишнего, не скрываем ошибок.
+					</p>
+					<img src="img/info2.png" alt="" class="info__pic">
+				</div>
+			</div>
+		</section>
+		<section class="ser" id="ser">
+			<div class="container">
+				<h2>
+					наши услуги
+				</h2>
+				<div class="ser__box">
+					<a href="#" class="js-popup-call ser__item">
+						<div class="ser__top">
+							<img src="img/ser.png" alt="">
+							<div class="ser__area">
+								<h3>
+									Особенности
+								</h3>
+								<p>
+									Во время стрижки барбер учитывает пожелания клиента, предлагает варианты причёсок и помогает определиться с выбором
+								</p>
+								<p>
+									Стрижку в барбершопе можно дополнить другими услугами, такими как бритьё, моделирование бороды и усов
+								</p>
+								<div class="btn btn_2 js-popup-call">
+									Записаться онлайн
+								</div>
+							</div>
+						</div>
+						<div class="ser__content">
+							<h4>
+								Стрижка машинкой
+							</h4>
+							<p class="ser__text">
+								«Классика и точность»: мужская стрижка ножницами и машинкой   
+							</p>
+							<div class="ser__info q">
+								<div>
+									<p>
+										BARBER
+									</p>
+									<span>
+										2900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										TOP
+									</p>
+									<span>
+										3900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										BRAND
+									</p>
+									<span>
+										6000 ₽
+									</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="js-popup-call ser__item">
+						<div class="ser__top">
+							<img src="img/ser.png" alt="">
+							<div class="ser__area">
+								<h3>
+									Особенности
+								</h3>
+								<p>
+									Во время стрижки барбер учитывает пожелания клиента, предлагает варианты причёсок и помогает определиться с выбором
+								</p>
+								<p>
+									Стрижку в барбершопе можно дополнить другими услугами, такими как бритьё, моделирование бороды и усов
+								</p>
+								<div class="btn btn_2 js-popup-call">
+									Записаться онлайн
+								</div>
+							</div>
+						</div>
+						<div class="ser__content">
+							<h4>
+								Стрижка машинкой
+							</h4>
+							<p class="ser__text">
+								«Классика и точность»: мужская стрижка ножницами и машинкой   
+							</p>
+							<div class="ser__info q">
+								<div>
+									<p>
+										BARBER
+									</p>
+									<span>
+										2900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										TOP
+									</p>
+									<span>
+										3900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										BRAND
+									</p>
+									<span>
+										6000 ₽
+									</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="js-popup-call ser__item">
+						<div class="ser__top">
+							<img src="img/ser.png" alt="">
+							<div class="ser__area">
+								<h3>
+									Особенности
+								</h3>
+								<p>
+									Во время стрижки барбер учитывает пожелания клиента, предлагает варианты причёсок и помогает определиться с выбором
+								</p>
+								<p>
+									Стрижку в барбершопе можно дополнить другими услугами, такими как бритьё, моделирование бороды и усов
+								</p>
+								<div class="btn btn_2 js-popup-call">
+									Записаться онлайн
+								</div>
+							</div>
+						</div>
+						<div class="ser__content">
+							<h4>
+								Стрижка машинкой
+							</h4>
+							<p class="ser__text">
+								«Классика и точность»: мужская стрижка ножницами и машинкой   
+							</p>
+							<div class="ser__info q">
+								<div>
+									<p>
+										BARBER
+									</p>
+									<span>
+										2900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										TOP
+									</p>
+									<span>
+										3900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										BRAND
+									</p>
+									<span>
+										6000 ₽
+									</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="js-popup-call ser__item">
+						<div class="ser__top">
+							<img src="img/ser.png" alt="">
+							<div class="ser__area">
+								<h3>
+									Особенности
+								</h3>
+								<p>
+									Во время стрижки барбер учитывает пожелания клиента, предлагает варианты причёсок и помогает определиться с выбором
+								</p>
+								<p>
+									Стрижку в барбершопе можно дополнить другими услугами, такими как бритьё, моделирование бороды и усов
+								</p>
+								<div class="btn btn_2 js-popup-call">
+									Записаться онлайн
+								</div>
+							</div>
+						</div>
+						<div class="ser__content">
+							<h4>
+								Стрижка машинкой
+							</h4>
+							<p class="ser__text">
+								«Классика и точность»: мужская стрижка ножницами и машинкой   
+							</p>
+							<div class="ser__info q">
+								<div>
+									<p>
+										BARBER
+									</p>
+									<span>
+										2900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										TOP
+									</p>
+									<span>
+										3900 ₽
+									</span>
+								</div>
+								<div>
+									<p>
+										BRAND
+									</p>
+									<span>
+										6000 ₽
+									</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="accordeon">
+					<div class="accordeon-container">
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<h3>
+									Уход и СПА
+								</h3>
+								<p>
+									Уходовые ритуалы для кожи головы, лица и бороды.
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<div class="ser__left">
+										<h4>
+											Чистка лица
+										</h4>
+										<p>
+											Уходовые ритуалы для кожи головы, лица и бороды.
+										</p>
+									</div>
+									<div class="ser__right">
+										<div class="ser__info q">
+											<div>
+												<p>
+													BARBER
+												</p>
+												<span>
+													400 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													TOP
+												</p>
+												<span>
+													1700 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													BRAND
+												</p>
+												<span>
+													2000 ₽
+												</span>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="panel__text">
+									<div class="ser__left">
+										<h4>
+											Чистка лица
+										</h4>
+										<p>
+											Уходовые ритуалы для кожи головы, лица и бороды.
+										</p>
+									</div>
+									<div class="ser__right">
+										<div class="ser__info q">
+											<div>
+												<p>
+													BARBER
+												</p>
+												<span>
+													400 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													TOP
+												</p>
+												<span>
+													1700 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													BRAND
+												</p>
+												<span>
+													2000 ₽
+												</span>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="panel__text">
+									<div class="ser__left">
+										<h4>
+											Чистка лица
+										</h4>
+										<p>
+											Уходовые ритуалы для кожи головы, лица и бороды.
+										</p>
+									</div>
+									<div class="ser__right">
+										<div class="ser__info q">
+											<div>
+												<p>
+													BARBER
+												</p>
+												<span>
+													400 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													TOP
+												</p>
+												<span>
+													1700 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													BRAND
+												</p>
+												<span>
+													2000 ₽
+												</span>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<h3>
+									Уход и СПА
+								</h3>
+								<p>
+									Уходовые ритуалы для кожи головы, лица и бороды.
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<div class="ser__left">
+										<h4>
+											Чистка лица
+										</h4>
+										<p>
+											Уходовые ритуалы для кожи головы, лица и бороды.
+										</p>
+									</div>
+									<div class="ser__right">
+										<div class="ser__info q">
+											<div>
+												<p>
+													BARBER
+												</p>
+												<span>
+													2900 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													TOP
+												</p>
+												<span>
+													3900 ₽
+												</span>
+											</div>
+											<div>
+												<p>
+													BRAND
+												</p>
+												<span>
+													6000 ₽
+												</span>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="photo" id="photo">
+			<div class="container">
+				<div class="swiper-button-next1 arrow">
+					<img src="img/arrow.svg" alt="" class="svg">
+				</div>
+				<h2>
+					фотогалерея
+				</h2>
+				<div class="swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="img/pic1.png" data-fancybox="gallery1">
+								<img src="img/pic1.png" alt="">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="img/pic1.png" data-fancybox="gallery1">
+								<img src="img/pic1.png" alt="">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="img/pic1.png" data-fancybox="gallery1">
+								<img src="img/pic1.png" alt="">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="img/pic1.png" data-fancybox="gallery1">
+								<img src="img/pic1.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="team" id="team">
+			<div class="container">
+				<div class="swiper-button-next2 arrow">
+					<img src="img/arrow.svg" alt="" class="svg">
+				</div>
+				<h2>
+					наши мастера
+				</h2>
+				<div class="swiper2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/team3.png" alt="">
+							<h3>
+								Валера
+							</h3>
+							<p>
+								Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/team2.png" alt="">
+							<h3>
+								Дмитрий
+							</h3>
+							<p>
+								Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/team1.png" alt="">
+							<h3>
+								Арамис
+							</h3>
+							<p>
+								Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/team3.png" alt="">
+							<h3>
+								Валера
+							</h3>
+							<p>
+								Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/team3.png" alt="">
+							<h3>
+								Валера
+							</h3>
+							<p>
+								Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="prog" id="prog">
+			<div class="container">
+				<h2>
+					программа лояльности
+				</h2>
+				<div class="prog__row q">
+					<div class="prog__item">
+						<img src="img/prog1.png" alt="">
+						<h3>
+							Сертификат
+						</h3>
+						<p>
+							на 3000 ₽
+						</p>
+						<a href="#">
+							Заказать сертификат
+						</a>
+					</div>
+					<div class="prog__item">
+						<img src="img/prog2.png" alt="">
+						<h3>
+							Сертификат
+						</h3>
+						<p>
+							на 5000 ₽
+						</p>
+						<a href="#">
+							Заказать сертификат
+						</a>
+					</div>
+					<div class="prog__item">
+						<img src="img/prog3.png" alt="">
+						<h3>
+							Сертификат
+						</h3>
+						<p>
+							на 10 000 ₽
+						</p>
+						<a href="#">
+							Заказать сертификат
+						</a>
+					</div>
+				</div>
+				<div class="prog__wrap">
+					<div class="prog__block q">
+						<div class="prog__info">
+							<h3>
+								Кэшбэк <span> 10–30%</span> с услуг
+							</h3>
+							<p>
+								До 20% стоимости товаров можно оплатить бонусами
+							</p>
+						</div>
+						<img src="img/prog1.svg" alt="">
+					</div>
+					<div class="prog__block q">
+						<div class="prog__info">
+							<h3>
+								Депозит
+							</h3>
+							<p>
+								При депозите 50 000 ₽ скидка 10% на все услуги
+							</p>
+						</div>
+						<img src="img/prog2.svg" alt="">
+					</div>
+					<div class="prog__block q">
+						<div class="prog__info">
+							<h3>
+								Абонементы
+							</h3>
+							<p>
+								При депозите 50 000 ₽ скидка 10% на все услуги
+							</p>
+						</div>
+						<img src="img/prog3.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="rev" id="rev">
+			<div class="container">
+				<div class="swiper-button-next3 arrow">
+					<img src="img/arrow.svg" alt="" class="svg">
+				</div>
+				<h2>
+					отзывы и доверие
+				</h2>
+				<div class="swiper3">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="rev__wrap youtube-link" youtubeid="LRkDnSQSFXU">
+								<img src="img/rev1.png" alt="">
+								<div class="rev__play">
+									<img src="img/play.svg" alt="" class="svg">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="rev__wrap youtube-link" youtubeid="LRkDnSQSFXU">
+								<img src="img/rev2.png" alt="">
+								<div class="rev__play">
+									<img src="img/play.svg" alt="" class="svg">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="rev__wrap youtube-link" youtubeid="LRkDnSQSFXU">
+								<img src="img/rev1.png" alt="">
+								<div class="rev__play">
+									<img src="img/play.svg" alt="" class="svg">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="rev__wrap youtube-link" youtubeid="LRkDnSQSFXU">
+								<img src="img/rev2.png" alt="">
+								<div class="rev__play">
+									<img src="img/play.svg" alt="" class="svg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="faq" id="faq">
+			<div class="container">
+				<h2>
+					вопрос ответ
+				</h2>
+				<div class="accordeon">
+					<div class="accordeon-container">
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<p>
+									Почему стрижка стоит 3000р?
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p>
+										В техкартах прописана точная последовательность оказания услуг и используемая косметика. <br>
+										Это стандартизированный подход, а не импровизация с результатом.
+									</p>
+									<p>
+										К сожалению, ошибки иногда случаются.Каждый случай, где результат оказался неидеален, выявляется через контроль качества после визита и обязательно исправляется.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<p>
+									Как понять, что мастер точно знает, как Вас стричь?
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p>
+										В техкартах прописана точная последовательность оказания услуг и используемая косметика.
+										Это стандартизированный подход, а не импровизация с результатом.
+									</p>
+									<p>
+										К сожалению, ошибки иногда случаются.Каждый случай, где результат оказался неидеален, выявляется через контроль качества после визита и обязательно исправляется.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<p>
+									Где грань между заботой и “впариванием”?
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p>
+										В техкартах прописана точная последовательность оказания услуг и используемая косметика.
+										Это стандартизированный подход, а не импровизация с результатом.
+									</p>
+									<p>
+										К сожалению, ошибки иногда случаются.Каждый случай, где результат оказался неидеален, выявляется через контроль качества после визита и обязательно исправляется.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<p>
+									Почему Вы просите одно, а получаете совсем другое?
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p>
+										В техкартах прописана точная последовательность оказания услуг и используемая косметика.
+										Это стандартизированный подход, а не импровизация с результатом.
+									</p>
+									<p>
+										К сожалению, ошибки иногда случаются.Каждый случай, где результат оказался неидеален, выявляется через контроль качества после визита и обязательно исправляется.
+									</p>
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">
+								<p>
+									Может ли барбершоп гарантировать результат?
+								</p>
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									<p>
+										В техкартах прописана точная последовательность оказания услуг и используемая косметика.
+										Это стандартизированный подход, а не импровизация с результатом.
+									</p>
+									<p>
+										К сожалению, ошибки иногда случаются.Каждый случай, где результат оказался неидеален, выявляется через контроль качества после визита и обязательно исправляется.
+									</p>
+								</li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>
+						Надеемся, что наш опыт поможет Вам избежать разочарований - где бы вы ни решили постричься. <span> Но, разумеется, мы рекомендуем прийти к нам!</span>
+					</p>
+					<img src="img/faq.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="blog" id="blog">
+			<div class="container">
+				<div class="swiper-button-next4 arrow">
+					<img src="img/arrow.svg" alt="" class="svg">
+				</div>
+				<h2>
+					блог
+				</h2>
+				<div class="swiper4">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="img/blog1.png" alt="">
+								<h3>
+									Наша статья
+								</h3>
+								<p>
+									Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+								</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="img/blog2.png" alt="">
+								<h3>
+									Наша статья
+								</h3>
+								<p>
+									Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+								</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="img/blog3.png" alt="">
+								<h3>
+									Наша статья
+								</h3>
+								<p>
+									Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+								</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="img/blog1.png" alt="">
+								<h3>
+									Наша статья
+								</h3>
+								<p>
+									Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+								</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="img/blog1.png" alt="">
+								<h3>
+									Наша статья
+								</h3>
+								<p>
+									Я не просто стригу - я создаю историю, которая будет с тобой на фото, встречах и в памяти. Если цитата большая, просто смещаем текст вверх”
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<img src="img/footer-logo.svg" alt="" class="footer__logo">
+				<div class="contacts__wrap">
+					<div class="contacts__top q">
+						<div class="contacts__item">
+							<p class="contacts__title">
+								Наш <span class="or"> адрес</span>
+							</p>
+							<p class="contacts__text">
+								УЛИЦА АРБАТ, ДОМ 6/2 С <span> 10-22</span> ЕЖЕДНЕВНО
+							</p>
+						</div>
+						<div class="contacts__item">
+							<p class="contacts__title">
+								Наш <span class="or">телефон</span>
+							</p>
+							<a href="tel:89252185550" class="contacts__text">
+								8 925 218-55-50
+							</a>
+						</div>
+						<div class="contacts__item">
+							<p class="contacts__title">
+								Наша <span class="or"> почта</span>
+							</p>
+							<a href="mailto:#Barbershop_KEp@yandex.ru" class="contacts__text">
+								#Barbershop_KEp@yandex.ru
+							</a>
+						</div>
+					</div>
+					<p class="contacts__sub">
+						КЭП. Барбершоп, где каждый гость — капитан
+					</p>
+					<div id="map"></div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__row q">
+					<img src="img/footer-logo.svg" alt="" class="footer__logo">
+					<p class="footer__sub">
+						2025 Барбершоп КЭП все права защищены
+					</p>
+					<a href="#" class="footer__policy" target="_blank">
+						Политика конфиденциальности
+					</a>
+					<a href="#" class="footer__link">
+						Онлайн запись
+					</a>
+					<a href="https://gasfort.ru/" class="footer__com" target="_blank">
+						<img src="img/com.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<p>
+						КЭП. Барбершоп, где каждый гость — <br class="mob"> капитан
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map("map", {
+				// Центр карты, указываем коордианты
+				center: [55.751700, 37.597486],
+				// Масштаб, тут все просто
+				zoom: 14,
+				// Отключаем все элементы управления
+				controls: []
+			});
+
+			var myGeoObjects = [];
+
+			// Наша метка, указываем коордианты
+			myGeoObjects = new ymaps.Placemark([55.751700, 37.597486], {
+				balloonContentBody: 'Barber',
+			}, {
+				iconLayout: 'default#image',
+				// Путь до нашей картинки
+				iconImageHref: 'img/map.svg',
+				// Размер по ширине и высоте
+				iconImageSize: [80, 80],
+				// Смещение левого верхнего угла иконки относительно
+				// её «ножки» (точки привязки).
+				iconImageOffset: [-35, -35]
+			});
+
+			var clusterer = new ymaps.Clusterer({
+				clusterDisableClickZoom: false,
+				clusterOpenBalloonOnClick: false,
+			});
+
+			clusterer.add(myGeoObjects);
+			myMap.geoObjects.add(clusterer);
+			// Отлючаем возможность изменения масштаба
+			myMap.behaviors.disable('scrollZoom');
+
+		}
+	</script>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-call">
+			<div class="popup-call__box">
+				<div class="container">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="">
+					</div>
+					<img src="img/man.png" alt="" class="popup__pic">
+					<img src="img/pop.png" alt="" class="popup__bg">
+					<p class="popup__name">
+						Оставьте заявку
+					</p>
+					<p class="popup__sub">
+						Запишем на сеанс в течении 5 минут
+					</p>
+					<form action="success.php" class="popup__form js-form" id="popupResult" method="post">
+						<input type="text" placeholder="Как вас зовут" required="">
+						<input type="tel" placeholder="Ваш телефон" class="tel" required="">
+						<button class="btn" data-submit>
+							Записаться онлайн
+						</button>
+						<p class="popup__personal">
+							Нажимая на кнопку “Записаться онлайн” вы автоматический <br> даете согласие на обработку <a href="#" target="_blank"> персональных данных</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="display:none;">
+		<div class="box-modal" id="popup-thank">
+			<div class="popup-call__box">
+				<div class="container">
+					<p class="popup__name">
+						Спасибо!
+					</p>
+					<p class="popup__sub">
+						Скоро мы свяжемся с вами
+					</p>
+					<div class="btn box-modal__close js-close-all">
+						Вернуться на сайт КЭПА
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script src="js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>
