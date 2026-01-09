@@ -169,6 +169,21 @@
       right: 20px
    .popup__pic
       width: 48%
+   .note
+      width: 90%
+      left: 5%
+      margin-left: 0
+      padding: 20px
+      bottom: 20px
+      flex-direction: column
+      text-align: center
+      &__close 
+         margin-left: 0
+   .note__text
+      text-align: left
+      margin-bottom: 20px
+      br 
+         display: none
 @media ( max-width: 991px )
    .menu-btn, .menu
       display: block
@@ -292,6 +307,20 @@
       top: initial
    .popup-call__box
       padding: 40px 20px
+   .news-item__wrap 
+      max-width: 700px
+   .news-item__block img
+      display: none
+   .news-item
+      margin-bottom: 60px
+   .policy h1
+      font-size: 32px
+      line-height: 38px
+   .policy h2
+      font-size: 24px
+      line-height: 29px
+   .policy
+      margin: 60px 0
 @media screen and (max-width: 767px)
    button:active, button:focus 
       outline: none
@@ -346,6 +375,15 @@
       font-size: 12px
       line-height: 14px
       text-align: left
+   .news-item__wrap
+      max-width: 520px
+   .news-item__content div h1, .news-item__content div h2
+      font-size: 24px
+      line-height: 29px
+   .news-item__block
+      padding: 25px 20px
+   .policy h1
+      font-size: 29px
 @media screen and (max-width: 576px)
    button:active, button:focus 
       outline: none
@@ -460,5 +498,30 @@
       width: 95%
       top: initial
       right: -93px
+   .news-item__wrap 
+      max-width: 540px
+      padding: 0 20px
+   .policy h1
+      font-size: 23px
+   .policy 
+      margin-top: 20px
+      margin-bottom: 20px
+   .note__name
+      font-size: 14px
+      line-height: 120%
+   .note__text
+      font-size: 12px
+      line-height: 120%
+@media screen and (min-width: 440px) and (max-width: 576px)
+   .header__area
+      width: 113% !important
+@media screen and (max-width: 390px)
+   .policy h1
+      font-size: 21px
+@media screen and (max-width: 375px)
+   .header__area 
+      width: 161%
+   .policy h1
+      font-size: 19px
 
 

@@ -1051,3 +1051,135 @@ input.error
       position: relative
       right: 0
       top: 0
+.news-item 
+   margin-bottom: 140px
+   &__pic 
+      width: 100%
+      height: 384px
+      object-fit: cover
+      margin-bottom: 36px
+   article 
+      box-sizing: border-box
+   &__wrap 
+      width: 100%
+      max-width: 743px
+      margin: 0 auto 
+   &__content 
+      div 
+         margin-bottom: 40px
+         h1, h2 
+            color: rgba(255, 255, 255, 1)
+            font-size: 32px
+            font-weight: 600
+            line-height: 38px
+            text-transform: none
+         h1 
+            margin-bottom: 20px
+         h2 
+            margin-bottom: 30px
+         h3 
+            margin: 30px 0 20px
+            color: rgba(255, 255, 255, 1)
+            font-size: 16px
+            font-weight: 600
+            line-height: 19px
+            text-transform: uppercase
+         p 
+            margin-bottom: 18px
+            color: rgba(255, 255, 255, 0.5)
+            font-size: 16px
+            font-weight: 400
+            line-height: 19px
+            &:last-child
+               margin-bottom: 0
+         &:last-child
+            margin-bottom: 0
+   &__block 
+      width: 100%
+      margin-top: 36px
+      position: relative
+      overflow: hidden
+      background: white 
+      padding: 35px 30px
+      p 
+         color: rgba(21, 21, 21, 1)
+         font-size: 16px
+         font-weight: 400
+         line-height: 19px
+         width: 100%
+         max-width: 664px
+      img 
+         position: absolute
+         top: 0
+         right: 0
+.policy 
+   margin: 100px 0
+   h1 
+      font-size: 48px
+      font-weight: 400
+      line-height: 58px
+      margin-bottom: 26px
+   p 
+      margin-bottom: 60px
+      color: rgba(255, 255, 255, 0.5)
+      font-size: 16px
+      font-weight: 400
+      line-height: 19px
+   h2 
+      font-size: 32px
+      font-weight: 600
+      text-transform: none
+      line-height: 38px
+      color: white 
+      margin-bottom: 20px
+   &__wrap 
+      width: 100%
+      max-width: 850px
+.note 
+   position: fixed
+   bottom: 20px
+   width: 100%
+   padding: 20px
+   max-width: 1200px
+   left: 50%
+   margin-left: -600px
+   display: flex
+   justify-content: space-between
+   z-index: 20
+   background: $or
+   display: flex
+   align-items: center
+   &__text 
+      color: rgba(21, 21, 21, 1)
+      font-size: 12px
+      font-weight: 600
+      line-height: 14px
+   &__close 
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 140px
+      height: 64px
+      flex: 1 0 auto 
+      max-width: 140px
+      margin-left: 60px
+      position: relative
+      cursor: pointer
+      top: 0px
+      font-size: 12px
+   &__none 
+      border: 1px solid white !important
+      width: 135px
+      height: 64px
+      flex: 1 0 auto 
+      max-width: 135px
+      cursor: pointer
+      font-size: 12px
+      margin-left: 16px
+      color: white
+      background: transparent
+      &:hover 
+         border: 1px solid $or2 !important
+         background: $or2
+         color: white
+         
