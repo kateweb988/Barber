@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -900,16 +901,17 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   flex-wrap: wrap;
 }
 .bread a {
-  color: rgba(51, 51, 51, 0.5);
-  font-size: 18px;
+  color: #999999;
+  font-size: 17px;
   font-weight: 400;
   line-height: 21px;
+  text-decoration: underline;
 }
 .bread a:after {
-  content: "/";
+  content: "—";
   display: inline-block;
-  color: rgba(51, 51, 51, 0.5) !important;
-  font-size: 18px;
+  color: #999999 !important;
+  font-size: 17px;
   font-weight: 400;
   line-height: 18px;
   margin: 0 15px;
@@ -924,8 +926,8 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   color: #FFAD5B;
 }
 .bread p {
-  color: rgba(51, 51, 51, 0.5);
-  font-size: 18px;
+  color: #999999;
+  font-size: 17px;
   font-weight: 400;
   line-height: 21px;
 }
@@ -2567,6 +2569,13 @@ input.error {
   .note__text {
     font-size: 12px;
     line-height: 120%;
+  }
+  .bread a, .bread p {
+    font-size: 14px;
+  }
+  .bread a:after {
+    font-size: 14px;
+    margin: 0 10px;
   }
 }
 @media screen and (min-width: 440px) and (max-width: 576px) {
