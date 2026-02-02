@@ -731,7 +731,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   position: relative;
   align-items: center;
   padding: 50px 0 100px;
-  margin-top: 111px;
+  margin-top: 100px;
   justify-content: space-between;
 }
 .header__box h1 {
@@ -787,17 +787,17 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 .header__pic1 {
   position: absolute;
-  top: -60px;
-  left: -52px;
-  width: 100%;
-  height: 100%;
+  top: -155px;
+  left: -293px;
+  width: auto;
+  height: auto;
   z-index: 1;
   object-fit: cover;
 }
 .header__pic2 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 19px;
+  left: 21px;
   z-index: 0;
 }
 
@@ -933,33 +933,43 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 
 .info {
-  padding: 105px 0 164px;
-  margin-top: 200px;
+  padding: 105px 0 144px;
+  margin-top: 150px;
+  position: relative;
 }
 .info__wrap {
   position: relative;
   width: 100%;
-  max-width: 820px;
   margin: 0 auto;
 }
 .info__top {
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
 }
 .info__top p {
   font-size: 24px;
-  margin-right: 36px;
+  margin-right: 0px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0.22rem;
   color: #FF860D;
+  width: 27%;
 }
 .info__top p span {
   color: white;
 }
 .info__top p:last-child {
   margin-right: 0;
+}
+.info__top p small {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 25px;
+  letter-spacing: 0;
 }
 .info__text {
   font-size: 24px;
@@ -974,12 +984,56 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 .info__bg {
   position: absolute;
-  right: 50%;
+  right: 0;
   top: -81px;
   z-index: -1;
-  width: 1440px;
-  margin-right: -720px;
+  width: 100%;
+  margin-right: 0;
   object-fit: contain;
+}
+.info__row {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+.info__row h2 {
+  color: white;
+}
+.info__row div {
+  width: 100%;
+  max-width: 387px;
+}
+.info__row div p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.info__row div a {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.info__row div a .svg {
+  margin-left: 10px;
+  position: relative;
+}
+.info__row div a:hover {
+  color: #FFAD5B;
+}
+.info__row div a:hover .svg path {
+  fill: #FFAD5B;
+}
+.info__pic {
+  width: 100%;
+  height: 311px;
+  object-fit: cover;
+  margin-bottom: 40px;
 }
 
 .ser {
@@ -2113,6 +2167,33 @@ input.error {
   .note__text br {
     display: none;
   }
+  .header__pic1 {
+    left: -238px;
+  }
+  .info__row {
+    flex-direction: column;
+  }
+  .info__row h2 {
+    margin-bottom: 20px;
+  }
+  .info__row {
+    margin-bottom: 40px;
+  }
+  .info__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .info__top p {
+    max-width: 100%;
+    width: 400px;
+  }
+  .info__top p small {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .info__bg {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   .menu-btn, .menu {
@@ -2306,6 +2387,10 @@ input.error {
   .policy {
     margin: 60px 0;
   }
+  .header__pic1 {
+    left: -302px;
+    top: -148px;
+  }
 }
 @media screen and (max-width: 767px) {
   button:active, button:focus {
@@ -2392,6 +2477,11 @@ input.error {
   }
   .policy h1 {
     font-size: 29px;
+  }
+  .header__pic1 {
+    right: -196px;
+    left: initial;
+    top: -116px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -2576,6 +2666,24 @@ input.error {
   .bread a:after {
     font-size: 14px;
     margin: 0 10px;
+  }
+  .header__pic1 {
+    object-fit: cover;
+    right: 141px;
+    left: initial;
+    top: -71px;
+    width: 100%;
+    height: auto;
+    max-height: 580px;
+  }
+  .info__top p small {
+    margin-bottom: 20px;
+  }
+  .info {
+    padding-bottom: 0;
+  }
+  .info__top p {
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 440px) and (max-width: 576px) {
