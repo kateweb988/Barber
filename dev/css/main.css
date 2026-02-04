@@ -489,7 +489,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check2.png) no-repeat center center;
+  background: url(../img/check2.png) no-repeat center center;
   background-size: 8px;
 }
 
@@ -630,7 +630,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   opacity: 0.5;
 }
 .accordeon .accordeon__button:after {
-  background: url(/img/faq1.svg) no-repeat !important;
+  background: url(../img/faq1.svg) no-repeat !important;
   width: 20px;
   height: 14px;
   position: absolute;
@@ -643,7 +643,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   width: 12px;
   margin-top: -10px;
   height: 20px;
-  background: url(/img/faq2.svg) no-repeat !important;
+  background: url(../img/faq2.svg) no-repeat !important;
 }
 .accordeon .accordeon__button:hover h3 {
   color: #FF860D !important;
@@ -812,7 +812,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-color: rgba(220, 107, 21, 0.1);
 }
 
@@ -857,7 +857,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   right: 0;
   cursor: pointer;
   transition: 0.5s;
-  background: url(/img/close2.svg) no-repeat center center/cover;
+  background: url(../img/close2.svg) no-repeat center center/cover;
   width: 28px;
   height: 28px;
 }
@@ -1669,6 +1669,8 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   font-weight: 400;
   line-height: 58px;
   text-transform: uppercase;
+  position: relative;
+  z-index: 3;
 }
 .popup__sub {
   color: rgb(255, 173, 91);
@@ -1676,8 +1678,12 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   font-weight: 700;
   line-height: 19px;
   margin-bottom: 60px;
+  position: relative;
+  z-index: 3;
 }
 .popup__form {
+  position: relative;
+  z-index: 3;
   width: 100%;
   max-width: 497px;
 }
@@ -1742,7 +1748,7 @@ input.error {
 }
 
 #popup-thank .popup-call__box {
-  background: url(/img/thanks.png) no-repeat center center/cover;
+  background: url(../img/thanks.png) no-repeat center center/cover;
 }
 #popup-thank .popup__name {
   text-align: center;
@@ -1956,7 +1962,7 @@ input.error {
     top: 20px;
     right: 0px;
     z-index: 11;
-    background: url(/img/bur1.svg) no-repeat center center;
+    background: url(../img/bur1.svg) no-repeat center center;
     overflow: hidden;
   }
   .menu {
@@ -1966,7 +1972,7 @@ input.error {
     width: 100%;
     height: 100%;
     padding: 100px 60px;
-    background: url(/img/mob.svg) no-repeat center center/cover;
+    background: url(../img/mob.svg) no-repeat center center/cover;
     transform: translateX(500%);
     transition: transform 0.5s;
     z-index: 7;
@@ -2002,7 +2008,7 @@ input.error {
     top: 0px;
     right: 0px;
     z-index: 11;
-    background: url(/img/bur2.svg) no-repeat center center;
+    background: url(../img/bur2.svg) no-repeat center center;
   }
   .menu-btn.active span:nth-of-type(1) {
     display: none;
@@ -2619,6 +2625,8 @@ input.error {
     padding: 0;
   }
   .popup__sub {
+    width: 100%;
+    max-width: 203px;
     position: relative;
     z-index: 3;
   }
@@ -2639,7 +2647,10 @@ input.error {
     bottom: 0;
     width: 95%;
     top: initial;
-    right: -93px;
+    right: -130px;
+  }
+  .popup__personal br {
+    display: none;
   }
   .news-item__wrap {
     max-width: 540px;
